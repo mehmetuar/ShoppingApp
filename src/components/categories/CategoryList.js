@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
-import { ListGroup, ListGroupItem } from 'reactstrap';
+// src/components/categories/CategoryList.js
+
+import React, { Component } from 'react';
+import { ListGroup } from 'reactstrap';
+import CategoryItem from './CategoryItem'; // Yeni component import edildi
 
 export default class CategoryList extends Component {
-
-
   state = {
     categories: [],
-
   };
 
   componentDidMount() {
@@ -17,25 +17,29 @@ export default class CategoryList extends Component {
     fetch("http://localhost:3000/categories")
       .then(response => response.json())
       .then(data => this.setState({ categories: data }));
-  }
-
-
+  };
 
   render() {
+    const { currentCategory, changeCategory, info } = this.props;
+
     return (
       <div className="category-list">
-        <h3>{this.props.info.title}</h3>
+        <h3>{info.title}</h3>
 
         <ListGroup>
-          {this.state.categories.map(category => (
-            <ListGroupItem active={category.categoryName === this.props.currentCategory ? true : false}
-              onClick={() => this.props.changeCategory(category)}
-              key={category.id} > {category.categoryName} </ListGroupItem>
+          {this.state.categories.map((category) => (
+            <CategoryItem
+              key={category.id}
+              category={category}
+              currentCategory={currentCategory}
+              changeCategory={changeCategory}
+            />
           ))}
-
         </ListGroup>
-        <h4>{this.props.currentCategory}</h4>
+
+        <h4>{currentCategory}</h4>
       </div>
-    )
+    );
   }
 }
+

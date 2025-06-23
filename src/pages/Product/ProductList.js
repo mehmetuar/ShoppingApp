@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Table, Button } from 'reactstrap'
-
+import ProductCard from '../../components/products/ProductCard'
 export default class ProductList extends Component {
 
   render() {
@@ -39,28 +39,14 @@ export default class ProductList extends Component {
             </tr>
           </thead>
           <tbody>
+
             {this.props.products.map(product => (
-              <tr key={product.id} >
-                <th scope="row"> {product.id}</th>
-                <td> {product.productName} </td>
-                <td> {product.unitPrice} </td>
-                <td> {product.quantityPerUnit} </td>
-                <td> {product.unitsInStock} </td>
-                <td><Button onClick={() => this.props.addToCart(product)} color="primary">
-                  Sepete Ekle
-                  <img
-                    src="/plus.png"
-                    alt="Logo"
-                    width="17"
-                    height="18"
-                    style={{ marginLeft: "5px" }}
-                  />
-                </Button>
-
-                </td>
-              </tr>
+              <ProductCard
+                key={product.id}
+                product={product}
+                onAddToCart={this.props.addToCart}
+              />
             ))}
-
 
           </tbody>
         </Table>
