@@ -5,6 +5,7 @@ import alertify from 'alertifyjs';
 import './App7.css';
 import Navi from './components/layout/Navi';
 import CategoryList from './components/categories/CategoryList';
+import CategoryMenu from './components/categories/CategoryMenu';
 import ProductList from './pages/Product/ProductList';
 import CartList from './components/cart/CartList';
 
@@ -182,32 +183,34 @@ export default class App extends Component {
               }
             />
 
-
-
             <Route
               path="/"
               element={
                 <ProtectedRoute isAuthenticated={this.state.isAuthenticated}>
-                  <Row>
-                    <Col xs="3">
-                      <CategoryList
-                        currentCategory={this.state.currentCategory}
-                        changeCategory={this.changeCategory}
-                        info={CategoryInfo}
-                      />
-                    </Col>
-                    <Col xs="9">
-                      <ProductList
-                        products={this.state.products}
-                        addToCart={this.addToCart}
-                        currentCategory={this.state.currentCategory}
-                        info={ProductInfo}
-                      />
-                    </Col>
-                  </Row>
+                  <CategoryMenu
+                    onCategoryClick={(category) => {
+                      this.setState({ currentCategory: category.name });
+                      this.getProducts(category.id);
+                    }}
+                  />
                 </ProtectedRoute>
               }
             />
+
+            <Route
+              path="/products"
+              element={
+                <ProtectedRoute isAuthenticated={this.state.isAuthenticated}>
+                  <ProductList
+                    products={this.state.products}
+                    addToCart={this.addToCart}
+                    currentCategory={this.state.currentCategory}
+                    info={{ title: "Ürünler" }}
+                  />
+                </ProtectedRoute>
+              }
+            />
+
             <Route
               path="/register"
               element={<Register onRegister={this.handleRegister} />}
