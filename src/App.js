@@ -8,11 +8,9 @@ import CategoryList from './components/categories/CategoryList';
 import CategoryMenu from './components/categories/CategoryMenu';
 import ProductList from './pages/Product/ProductList';
 import CartList from './components/cart/CartList';
-
 import Login from './pages/Auth/Login';
 import Register from './pages/Auth/Register';
 import Profile from './pages/Profile/Profile';
-
 import ProtectedRoute from './routes/ProtectedRoute';
 
 
@@ -26,7 +24,6 @@ export default class App extends Component {
     cart: [],
     users: [],
   };
-
 
   changeCategory = (category) => {
     this.setState({ currentCategory: category.categoryName })
@@ -53,8 +50,6 @@ export default class App extends Component {
   }
 
 
-
-
   getProducts = (categoryId) => {
     let url = "http://localhost:3000/products";
     if (categoryId) {
@@ -66,16 +61,36 @@ export default class App extends Component {
   };
 
   addToCart = (product) => {
-    let newCart = this.state.cart;
-    var addedItem = newCart.find(c => c.product.id === product.id);
+    if (product.unitsInStock <= 0) {
+      alertify.error(`${product.productName} stokta kalmamıştır!`);
+      return;
+    }
+  
+    let newCart = [...this.state.cart];
+    let addedItem = newCart.find(c => c.product.id === product.id);
+  
     if (addedItem) {
+      if (addedItem.product.unitsInStock <= addedItem.quantity) {
+        alertify.error(`${product.productName} stokta yeterli değil!`);
+        return;
+      }
       addedItem.quantity += 1;
     } else {
-      newCart.push({ product: product, quantity: 1 });
+      newCart.push({ product: { ...product }, quantity: 1 });
     }
-    this.setState({ cart: newCart })
+  
+    // Sepete eklendiğinde stoktan düş
+    const updatedProducts = this.state.products.map(p => {
+      if (p.id === product.id) {
+        return { ...p, unitsInStock: p.unitsInStock - 1 };
+      }
+      return p;
+    });
+  
+    this.setState({ cart: newCart, products: updatedProducts });
     alertify.success(product.productName + " sepete eklendi.", 2);
-  }
+  };
+  
 
   removeFromCart = (product) => {
     let newCart = this.state.cart.filter(c => c.product.id !== product.id)
@@ -118,7 +133,6 @@ export default class App extends Component {
       alertify.error("Geçersiz kullanıcı adı veya şifre!");
     }
   };
-
 
   handleRegister = (newUser) => {
     this.setState(
