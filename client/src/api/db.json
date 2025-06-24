@@ -1,15 +1,15 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "categoryId": 2,
       "productName": "Midye",
       "quantityPerUnit": "48 - 6 oz jars",
       "unitPrice": "24",
-      "unitsInStock": 53
+      "unitsInStock": 0
     },
     {
-      "id": 2,
+      "id": "2",
       "categoryId": 1,
       "productName": "Toprak Baharatı",
       "quantityPerUnit": "24 - 12 oz bottles",
@@ -17,7 +17,7 @@
       "unitsInStock": 17
     },
     {
-      "id": 4,
+      "id": "4",
       "categoryId": 1,
       "productName": "Limon Baharatı",
       "quantityPerUnit": "48 - 6 oz jars",
@@ -25,7 +25,7 @@
       "unitsInStock": 53
     },
     {
-      "id": 5,
+      "id": "5",
       "categoryId": 2,
       "productName": "Somon",
       "quantityPerUnit": "36 boxes",
@@ -33,15 +33,15 @@
       "unitsInStock": 0
     },
     {
-      "id": 6,
+      "id": "6",
       "categoryId": 2,
       "productName": "Hamsi",
       "quantityPerUnit": "12 - 8 oz jars",
       "unitPrice": 25,
-      "unitsInStock": 120
+      "unitsInStock": 117
     },
     {
-      "id": 7,
+      "id": "7",
       "categoryId": 7,
       "productName": "Çavdar",
       "quantityPerUnit": "12 - 1 lb pkgs.",
@@ -49,15 +49,15 @@
       "unitsInStock": 15
     },
     {
-      "id": 8,
+      "id": "8",
       "categoryId": 2,
       "productName": "İstiridye",
       "quantityPerUnit": "12 - 12 oz jars",
       "unitPrice": 40,
-      "unitsInStock": 100
+      "unitsInStock": 96
     },
     {
-      "id": 9,
+      "id": "9",
       "categoryId": 6,
       "productName": "Beyaz Peynir",
       "quantityPerUnit": "18 - 500 g pkgs.",
@@ -65,7 +65,7 @@
       "unitsInStock": 29
     },
     {
-      "id": 10,
+      "id": "10",
       "categoryId": 8,
       "productName": "Çim Tohumu",
       "quantityPerUnit": "12 - 200 ml jars",
@@ -73,15 +73,15 @@
       "unitsInStock": 31
     },
     {
-      "id": 11,
+      "id": "11",
       "categoryId": 4,
       "productName": "Çay",
       "quantityPerUnit": "1 kg pkg.",
       "unitPrice": 21,
-      "unitsInStock": 22
+      "unitsInStock": 15
     },
     {
-      "id": 12,
+      "id": "12",
       "categoryId": 4,
       "productName": "RedBull",
       "quantityPerUnit": "10 - 500 g pkgs.",
@@ -89,7 +89,7 @@
       "unitsInStock": 86
     },
     {
-      "id": 13,
+      "id": "13",
       "categoryId": 8,
       "productName": "Biber Tohumu",
       "quantityPerUnit": "2 kg box",
@@ -97,7 +97,7 @@
       "unitsInStock": 24
     },
     {
-      "id": 14,
+      "id": "14",
       "categoryId": 7,
       "productName": "Yulaf",
       "quantityPerUnit": "40 - 100 g pkgs.",
@@ -105,23 +105,23 @@
       "unitsInStock": 35
     },
     {
-      "id": 15,
+      "id": "15",
       "categoryId": 2,
       "productName": "Karides",
       "quantityPerUnit": "24 - 250 ml bottles",
       "unitPrice": 15.5,
-      "unitsInStock": 39
+      "unitsInStock": 38
     },
     {
-      "id": 16,
+      "id": "16",
       "categoryId": 3,
       "productName": "Tavuk But",
       "quantityPerUnit": "32 - 500 g boxes",
       "unitPrice": 17.45,
-      "unitsInStock": 29
+      "unitsInStock": 28
     },
     {
-      "id": 17,
+      "id": "17",
       "categoryId": 6,
       "productName": "Yoğurt",
       "quantityPerUnit": "20 - 1 kg tins",
@@ -129,7 +129,7 @@
       "unitsInStock": 0
     },
     {
-      "id": 18,
+      "id": "18",
       "categoryId": 8,
       "productName": "Pembe Çiçek Tohumu",
       "quantityPerUnit": "16 kg pkg.",
@@ -137,15 +137,15 @@
       "unitsInStock": 42
     },
     {
-      "id": 19,
+      "id": "19",
       "categoryId": 3,
       "productName": "Tavuk Kanat",
       "quantityPerUnit": "10 boxes x 12 pieces",
       "unitPrice": 9.2,
-      "unitsInStock": 25
+      "unitsInStock": 19
     },
     {
-      "id": 20,
+      "id": "20",
       "categoryId": 3,
       "productName": "Tavuk Göğüs",
       "quantityPerUnit": "30 gift boxes",
@@ -153,15 +153,15 @@
       "unitsInStock": 40
     },
     {
-      "id": 21,
+      "id": "21",
       "categoryId": 3,
       "productName": "Bonfile",
       "quantityPerUnit": "24 pkgs. x 4 pieces",
       "unitPrice": 10,
-      "unitsInStock": 3
+      "unitsInStock": 0
     },
     {
-      "id": 22,
+      "id": "22",
       "categoryId": 5,
       "productName": "Kiraz Şekerlemesi",
       "quantityPerUnit": "24 - 500 g pkgs.",
@@ -169,7 +169,7 @@
       "unitsInStock": 104
     },
     {
-      "id": 23,
+      "id": "23",
       "categoryId": 5,
       "productName": "Sütlü Şeker",
       "quantityPerUnit": "12 - 250 g pkgs.",
@@ -177,15 +177,15 @@
       "unitsInStock": 61
     },
     {
-      "id": 24,
+      "id": "24",
       "categoryId": 1,
       "productName": "Zencefil",
       "quantityPerUnit": "12 - 355 ml cans",
       "unitPrice": 4.5,
-      "unitsInStock": 20
+      "unitsInStock": 19
     },
     {
-      "id": 25,
+      "id": "25",
       "categoryId": 3,
       "productName": "Dana Kıyma",
       "quantityPerUnit": "20 - 450 g glasses",
@@ -193,7 +193,7 @@
       "unitsInStock": 76
     },
     {
-      "id": 26,
+      "id": "26",
       "categoryId": 3,
       "productName": "Dana Kuşbaşı",
       "quantityPerUnit": "100 - 250 g bags",
@@ -201,7 +201,7 @@
       "unitsInStock": 15
     },
     {
-      "id": 27,
+      "id": "27",
       "categoryId": 3,
       "productName": "Antrikot",
       "quantityPerUnit": "100 - 100 g pieces",
@@ -209,7 +209,7 @@
       "unitsInStock": 49
     },
     {
-      "id": 28,
+      "id": "28",
       "categoryId": 7,
       "productName": "Arpa",
       "quantityPerUnit": "25 - 825 g cans",
@@ -217,7 +217,7 @@
       "unitsInStock": 26
     },
     {
-      "id": 29,
+      "id": "29",
       "categoryId": 6,
       "productName": "Ayran",
       "quantityPerUnit": "50 bags x 30 sausgs.",
@@ -225,7 +225,7 @@
       "unitsInStock": 0
     },
     {
-      "id": 30,
+      "id": "30",
       "categoryId": 8,
       "productName": "Lavanta Çiçeği",
       "quantityPerUnit": "10 - 200 g glasses",
@@ -233,7 +233,7 @@
       "unitsInStock": 10
     },
     {
-      "id": 31,
+      "id": "31",
       "categoryId": 4,
       "productName": "FuseTea",
       "quantityPerUnit": "12 - 100 g pkgs",
@@ -241,31 +241,31 @@
       "unitsInStock": 0
     },
     {
-      "id": 32,
+      "id": "32",
       "categoryId": 4,
       "productName": "Coca Cola",
       "quantityPerUnit": "24 - 200 g pkgs.",
       "unitPrice": 32,
-      "unitsInStock": 9
+      "unitsInStock": 8
     },
     {
-      "id": 33,
+      "id": "33",
       "categoryId": 4,
       "productName": "Fanta",
       "quantityPerUnit": "500 g",
       "unitPrice": 2.5,
-      "unitsInStock": 112
+      "unitsInStock": 109
     },
     {
-      "id": 34,
+      "id": "34",
       "categoryId": 1,
       "productName": "Kızarmış Patates Baharatı",
       "quantityPerUnit": "24 - 12 oz bottles",
       "unitPrice": 14,
-      "unitsInStock": 111
+      "unitsInStock": 110
     },
     {
-      "id": 35,
+      "id": "35",
       "categoryId": 1,
       "productName": "Karanfil",
       "quantityPerUnit": "24 - 12 oz bottles",
@@ -273,7 +273,7 @@
       "unitsInStock": 20
     },
     {
-      "id": 36,
+      "id": "36",
       "categoryId": 8,
       "productName": "Fasulye",
       "quantityPerUnit": "24 - 250 g  jars",
@@ -281,7 +281,7 @@
       "unitsInStock": 112
     },
     {
-      "id": 37,
+      "id": "37",
       "categoryId": 8,
       "productName": "Çilek",
       "quantityPerUnit": "12 - 500 g pkgs.",
@@ -289,7 +289,7 @@
       "unitsInStock": 11
     },
     {
-      "id": 38,
+      "id": "38",
       "categoryId": 1,
       "productName": "Kuru Nane",
       "quantityPerUnit": "12 - 75 cl bottles",
@@ -297,7 +297,7 @@
       "unitsInStock": 17
     },
     {
-      "id": 39,
+      "id": "39",
       "categoryId": 1,
       "productName": "Karabiber",
       "quantityPerUnit": "750 cc per bottle",
@@ -305,7 +305,7 @@
       "unitsInStock": 69
     },
     {
-      "id": 40,
+      "id": "40",
       "categoryId": 8,
       "productName": "Domates",
       "quantityPerUnit": "24 - 4 oz tins",
@@ -313,7 +313,7 @@
       "unitsInStock": 123
     },
     {
-      "id": 41,
+      "id": "41",
       "categoryId": 8,
       "productName": "Yeşil Fesleğen Tohumu",
       "quantityPerUnit": "12 - 12 oz cans",
@@ -321,7 +321,7 @@
       "unitsInStock": 85
     },
     {
-      "id": 42,
+      "id": "42",
       "categoryId": 5,
       "productName": "Şeker Hamurlu Kurabiye",
       "quantityPerUnit": "32 - 1 kg pkgs.",
@@ -329,7 +329,7 @@
       "unitsInStock": 26
     },
     {
-      "id": 43,
+      "id": "43",
       "categoryId": 1,
       "productName": "Acı Biber",
       "quantityPerUnit": "16 - 500 g tins",
@@ -337,15 +337,15 @@
       "unitsInStock": 17
     },
     {
-      "id": 44,
+      "id": "44",
       "categoryId": 2,
       "productName": "Kalamar",
       "quantityPerUnit": "20 - 2 kg bags",
       "unitPrice": 19.45,
-      "unitsInStock": 27
+      "unitsInStock": 26
     },
     {
-      "id": 45,
+      "id": "45",
       "categoryId": 8,
       "productName": "Mor Reyhan",
       "quantityPerUnit": "1k pkg.",
@@ -353,7 +353,7 @@
       "unitsInStock": 5
     },
     {
-      "id": 46,
+      "id": "46",
       "categoryId": 8,
       "productName": "Kuzukulağı Tohumu",
       "quantityPerUnit": "4 - 450 g glasses",
@@ -361,7 +361,7 @@
       "unitsInStock": 95
     },
     {
-      "id": 47,
+      "id": "47",
       "categoryId": 3,
       "productName": "Dana Kaburga",
       "quantityPerUnit": "10 - 4 oz boxes",
@@ -369,7 +369,7 @@
       "unitsInStock": 36
     },
     {
-      "id": 48,
+      "id": "48",
       "categoryId": 3,
       "productName": "Pirzola",
       "quantityPerUnit": "10 pkgs.",
@@ -377,7 +377,7 @@
       "unitsInStock": 15
     },
     {
-      "id": 49,
+      "id": "49",
       "categoryId": 3,
       "productName": "Dana Biftek",
       "quantityPerUnit": "24 - 50 g pkgs.",
@@ -385,7 +385,7 @@
       "unitsInStock": 10
     },
     {
-      "id": 50,
+      "id": "50",
       "categoryId": 3,
       "productName": "Kuzu İncik",
       "quantityPerUnit": "12 - 100 g bars",
@@ -393,7 +393,7 @@
       "unitsInStock": 65
     },
     {
-      "id": 51,
+      "id": "51",
       "categoryId": 7,
       "productName": "Pirinç",
       "quantityPerUnit": "50 - 300 g pkgs.",
@@ -401,7 +401,7 @@
       "unitsInStock": 20
     },
     {
-      "id": 52,
+      "id": "52",
       "categoryId": 5,
       "productName": "Badem Şekeri",
       "quantityPerUnit": "16 - 2 kg boxes",
@@ -409,7 +409,7 @@
       "unitsInStock": 38
     },
     {
-      "id": 53,
+      "id": "53",
       "categoryId": 6,
       "productName": "Süt",
       "quantityPerUnit": "48 pieces",
@@ -417,7 +417,7 @@
       "unitsInStock": 0
     },
     {
-      "id": 54,
+      "id": "54",
       "categoryId": 6,
       "productName": "Kaymak",
       "quantityPerUnit": "16 pies",
@@ -425,7 +425,7 @@
       "unitsInStock": 21
     },
     {
-      "id": 55,
+      "id": "55",
       "categoryId": 6,
       "productName": "Kaşar",
       "quantityPerUnit": "24 boxes x 2 pies",
@@ -433,7 +433,7 @@
       "unitsInStock": 115
     },
     {
-      "id": 56,
+      "id": "56",
       "categoryId": 5,
       "productName": "Lolipop",
       "quantityPerUnit": "24 - 250 g pkgs.",
@@ -441,7 +441,7 @@
       "unitsInStock": 21
     },
     {
-      "id": 57,
+      "id": "57",
       "categoryId": 5,
       "productName": "Bonibon",
       "quantityPerUnit": "24 - 250 g pkgs.",
@@ -449,7 +449,7 @@
       "unitsInStock": 36
     },
     {
-      "id": 58,
+      "id": "58",
       "categoryId": 8,
       "productName": "Doğal Anadolu Kekiği",
       "quantityPerUnit": "24 pieces",
@@ -457,7 +457,7 @@
       "unitsInStock": 62
     },
     {
-      "id": 59,
+      "id": "59",
       "categoryId": 4,
       "productName": "Sprite",
       "quantityPerUnit": "5 kg pkg.",
@@ -465,7 +465,7 @@
       "unitsInStock": 79
     },
     {
-      "id": 60,
+      "id": "60",
       "categoryId": 4,
       "productName": "Latte",
       "quantityPerUnit": "15 - 300 g rounds",
@@ -473,7 +473,7 @@
       "unitsInStock": 19
     },
     {
-      "id": 61,
+      "id": "61",
       "categoryId": 2,
       "productName": "Istakoz",
       "quantityPerUnit": "24 - 500 ml bottles",
@@ -481,7 +481,7 @@
       "unitsInStock": 113
     },
     {
-      "id": 62,
+      "id": "62",
       "categoryId": 3,
       "productName": "Kuzu Gerdan",
       "quantityPerUnit": "48 pies",
@@ -489,7 +489,7 @@
       "unitsInStock": 17
     },
     {
-      "id": 63,
+      "id": "63",
       "categoryId": 2,
       "productName": "Kerevit",
       "quantityPerUnit": "15 - 625 g jars",
@@ -497,7 +497,7 @@
       "unitsInStock": 24
     },
     {
-      "id": 64,
+      "id": "64",
       "categoryId": 5,
       "productName": "Marshmallow",
       "quantityPerUnit": "20 bags x 4 pieces",
@@ -505,7 +505,7 @@
       "unitsInStock": 22
     },
     {
-      "id": 65,
+      "id": "65",
       "categoryId": 2,
       "productName": "Çipura",
       "quantityPerUnit": "32 - 8 oz bottles",
@@ -513,7 +513,7 @@
       "unitsInStock": 76
     },
     {
-      "id": 66,
+      "id": "66",
       "categoryId": 2,
       "productName": "Levrek",
       "quantityPerUnit": "24 - 8 oz jars",
@@ -521,7 +521,7 @@
       "unitsInStock": 4
     },
     {
-      "id": 67,
+      "id": "67",
       "categoryId": 1,
       "productName": "Kekik",
       "quantityPerUnit": "24 - 12 oz bottles",
@@ -529,7 +529,7 @@
       "unitsInStock": 52
     },
     {
-      "id": 68,
+      "id": "68",
       "categoryId": 3,
       "productName": "Kuzu Kol",
       "quantityPerUnit": "10 boxes x 8 pieces",
@@ -537,7 +537,7 @@
       "unitsInStock": 6
     },
     {
-      "id": 69,
+      "id": "69",
       "categoryId": 4,
       "productName": "Americano",
       "quantityPerUnit": "10 kg pkg.",
@@ -545,7 +545,7 @@
       "unitsInStock": 26
     },
     {
-      "id": 70,
+      "id": "70",
       "categoryId": 1,
       "productName": "Çörek Otu",
       "quantityPerUnit": "24 - 355 ml bottles",
@@ -553,7 +553,7 @@
       "unitsInStock": 15
     },
     {
-      "id": 71,
+      "id": "71",
       "categoryId": 4,
       "productName": "Espresso",
       "quantityPerUnit": "10 - 500 g pkgs.",
@@ -561,7 +561,7 @@
       "unitsInStock": 26
     },
     {
-      "id": 72,
+      "id": "72",
       "categoryId": 4,
       "productName": "Cappuccino",
       "quantityPerUnit": "24 - 200 g pkgs.",
@@ -569,7 +569,7 @@
       "unitsInStock": 14
     },
     {
-      "id": 73,
+      "id": "73",
       "categoryId": 8,
       "productName": "Roka",
       "quantityPerUnit": "24 - 150 g jars",
@@ -577,7 +577,7 @@
       "unitsInStock": 101
     },
     {
-      "id": 74,
+      "id": "74",
       "categoryId": 7,
       "productName": "Buğday",
       "quantityPerUnit": "5 kg pkg.",
@@ -585,7 +585,7 @@
       "unitsInStock": 4
     },
     {
-      "id": 75,
+      "id": "75",
       "categoryId": 1,
       "productName": "Susam",
       "quantityPerUnit": "24 - 0.5 l bottles",
@@ -593,7 +593,7 @@
       "unitsInStock": 125
     },
     {
-      "id": 76,
+      "id": "76",
       "categoryId": 1,
       "productName": "Tarçın",
       "quantityPerUnit": "500 m",
@@ -601,7 +601,7 @@
       "unitsInStock": 57
     },
     {
-      "id": 77,
+      "id": "77",
       "categoryId": 2,
       "productName": "İstavrit",
       "quantityPerUnit": "12 boxes",
@@ -614,47 +614,47 @@
       "unitPrice": "1000",
       "quantityPerUnit": "1",
       "unitsInStock": "2",
-      "id": 78
+      "id": "78"
     }
   ],
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "categoryName": "İçecekler",
       "seoUrl": "beverages"
     },
     {
-      "id": 2,
+      "id": "2",
       "categoryName": "Çeşniler",
       "seoUrl": "condiments"
     },
     {
-      "id": 3,
+      "id": "3",
       "categoryName": "Şekerlemeler",
       "seoUrl": "confections"
     },
     {
-      "id": 4,
+      "id": "4",
       "categoryName": "Süt ürünleri",
       "seoUrl": "dairy-products"
     },
     {
-      "id": 5,
+      "id": "5",
       "categoryName": "Tahıllar/Hububatlar",
       "seoUrl": "grains-cereals"
     },
     {
-      "id": 6,
+      "id": "6",
       "categoryName": "Et/Tavuk",
       "seoUrl": "meat-poultry"
     },
     {
-      "id": 7,
+      "id": "7",
       "categoryName": "Tohumlar",
       "seoUrl": "produce"
     },
     {
-      "id": 8,
+      "id": "8",
       "categoryName": "Deniz ürünleri",
       "seoUrl": "seafood"
     }
